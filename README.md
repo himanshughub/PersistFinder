@@ -19,6 +19,7 @@ Copy and paste the script in the CrowdStrike RTR "Edit & run scripts" box and ru
 ```-Timeout="800" ```
 
 You can also run this script in PowerShell with below command line:
+
 ```powershell.exe -ExecutionPolicy Bypass -File .\PersistFinder.ps1```
 
 
