@@ -1,4 +1,4 @@
-# Enumerate all available (ready) drives instead of a static C:\
+# Enumerate all available (ready) drives on the machine
 $searchPaths = [System.IO.DriveInfo]::GetDrives() |
     Where-Object { $_.IsReady } |
     ForEach-Object { $_.RootDirectory.FullName }
