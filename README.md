@@ -27,5 +27,4 @@ You can also run this script in PowerShell with below command line:
 This script helps in finding persistence related to PUP or malicious files presence on the machine.
 
 # Snapshot of Script Output:
-![output_snap]()
-![output_snap]()
+![output_snap](https://github.com/himanshughub/PersistFinder/blob/main/Snapshots/PersistFinder_Output_snapshot1.png)
