@@ -5,7 +5,8 @@ As the name suggests, this PowerShell script is designed to identify the presenc
 This script only identifies persistence mechanisms and does not delete or remove anything from the system. Therefore, it is safe to run even on production machine.
 
 # Two Versions of the Script available in the repository for your preference use case
-PersistFinder_QuickScan.ps1 → Scans the *C:\* drive only and usually completes in less than a minute.
+PersistFinder_QuickScan.ps1 → Scans the ```*C:\*``` drive only and usually completes in less than a minute.
+
 PersistFinder.ps1 → Dynamically detects all drives connected to the machine and scans them for persistence mechanisms. Takes longer than 10 minutes in some cases.
 
 # Important Note
